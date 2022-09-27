@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "411762478690",
+    "firebase_url": "https://wonderweather-f085f.firebaseio.com",
+    "project_id": "wonderweather-f085f",
+    "storage_bucket": "wonderweather-f085f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:411762478690:android:6ff308bcb3d357e9cf0b3b",
+        "android_client_info": {
+          "package_name": "com.example.wonderweather"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "411762478690-ean6jungh6lpk9t0dbcmnlvkm8qmdv2c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCR0OJXe_IG3I55OIQzI-NdowyM53T9H4Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "411762478690-ean6jungh6lpk9t0dbcmnlvkm8qmdv2c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

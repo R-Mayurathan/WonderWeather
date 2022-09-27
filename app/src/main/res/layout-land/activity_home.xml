@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@color/grey">
+
+    <EditText
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Please Enter your City name"
+        android:id="@+id/et"/>
+    <Button
+        android:background="@drawable/custom_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get Weather"
+        android:layout_marginLeft="180dp"
+        android:layout_marginRight="200dp"
+        android:onClick="getweather"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:paddingLeft="55dp"
+        android:id="@+id/tv"
+        android:layout_width="710dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <TextView
+        android:paddingLeft="55dp"
+        android:id="@+id/p"
+        android:layout_width="707dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+
+    <TextView
+        android:paddingLeft="55dp"
+        android:id="@+id/h"
+        android:layout_width="716dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:orientation="horizontal" >
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="309dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="230dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/custom_button"
+        android:text="logout"
+        android:layout_marginLeft="210dp"
+        android:layout_marginRight="80dp" />
+
+
+</LinearLayout>
+</LinearLayout>
